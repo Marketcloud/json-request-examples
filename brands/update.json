@@ -3,7 +3,9 @@
     "url": "http://api.marketcloud.it/v0/brands",
     "httpVersion": "HTTP/1.1",
     "headers": [
-        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" }
+        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
         "mimeType" : "application/json",
