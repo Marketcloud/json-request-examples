@@ -1,0 +1,14 @@
+{
+    "method": "PUT",
+    "url": "http://api.marketcloud.it/v0/brands",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" }
+    ],
+    "postData" : {
+        "mimeType" : "application/json",
+        "text" : "{\"name\" : \"Paulaner Brauerei\"}"
+    },
+    "headersSize" : 150,
+    "bodySize" : 150
+}
