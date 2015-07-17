@@ -1,4 +1,4 @@
-"request": {
+{
     "method": "POST",
     "url": "http://api.marketcloud.it/v0/brands",
     "httpVersion": "HTTP/1.1",
