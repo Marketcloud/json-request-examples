@@ -14,6 +14,6 @@
         "url" : "Paulaner-Beer"
     },
     "headersSize" : 150,
-    "bodySize" : 0,
+    "bodySize" : -1,
     "comment" : ""
 }
