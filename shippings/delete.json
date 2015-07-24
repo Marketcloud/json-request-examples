@@ -1,0 +1,10 @@
+{
+    "method": "DELETE",
+    "url": "http://api.marketcloud.it/v0/brands/2",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+    	{ "name": "Accept", "value": "application/json" },
+    	{ "name": "Content-Type", "value": "application/json" },
+        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" }
+    ]
+}
