@@ -9,7 +9,7 @@
     ],
     "postData" : {
         "mimeType" : "application/json",
-        "text" : "{\"name\" : \"Paulaner\",\"description\" : \"Paulaner is a German brewery, established in 1634 in Munich by the Minim friars of the Neudeck ob der Au cloister. The mendicant order and the brewery are named after Francis of Paola, the founder of the order. Paulaner is one of the six breweries who provide beer for Oktoberfest, the German beer festival dating from 1810.\",\"image_url\" : \"http://media.marketcloud.it/v0/\",\"url\" : \"Paulaner-Beer\"}"
+        "text" : "{\"name\" : \"ExpressCouriers Inc\",\"price\" : \"€ 5.00\",\"min_price\" : 10.00, \"max_weight\" : 30.00 }"
     },
     "headersSize" : 150,
     "bodySize" : 150
