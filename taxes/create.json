@@ -1,0 +1,16 @@
+{
+    "method": "POST",
+    "url": "http://api.marketcloud.it/v0/taxes",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "postData" : {
+        "mimeType" : "application/json",
+        "text" : "{\"name\" : \"Minimum VAT\",\"rate\" : \"4.00\",\"description\" : \"To be applied for first use goods (food, press...)\" }"
+    },
+    "headersSize" : 150,
+    "bodySize" : 150
+}
