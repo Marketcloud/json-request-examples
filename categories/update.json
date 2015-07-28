@@ -9,7 +9,7 @@
     ],
     "postData" : {
         "mimeType" : "application/json",
-        "text" : "{\"name\" : \"Beer Company\"}"
+        "text" : "{\"name\" : \"Wine Company\"}"
     },
     "headersSize" : 150,
     "bodySize" : 150
