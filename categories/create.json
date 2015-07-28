@@ -9,7 +9,7 @@
     ],
     "postData" : {
         "mimeType" : "application/json",
-        "text" : "{\"name\" : \"Brewery\",\"description\" : \"Find the best breweries in the world and taste their amazing beers.\",\"image_url\" : \"http://media.marketcloud.it/v0/\",\"url\" : \"Brewery\",\"parent_id\" :null}"
+        "text" : "{\"name\" : \"Brewery\",\"description\" : \"Find the best breweries in the world and taste their amazing beers.\",\"image_url\" : \"http://media.marketcloud.it/v0/\",\"url\" : \"Brewery\"}"
     },
     "headersSize" : 150,
     "bodySize" : 150
