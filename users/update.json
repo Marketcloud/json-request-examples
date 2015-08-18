@@ -1,6 +1,6 @@
 {
     "method": "PUT",
-    "url": "http://api.marketcloud.it/v0/brands/3",
+    "url": "http://api.marketcloud.it/v0/users/3",
     "httpVersion": "HTTP/1.1",
     "headers": [
         { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
