@@ -1,0 +1,16 @@
+{
+    "method": "POST",
+    "url": "http://api.marketcloud.it/v0/carts",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "postData" : {
+        "mimeType" : "application/json",
+        "text" : "{\"user_id\" : 1,\"items\" : [{\"product_id\":13,\"quantity\":2},{\"product_id\":15,\"quantity\":3}]}"
+    },
+    "headersSize" : 150,
+    "bodySize" : 150
+}
