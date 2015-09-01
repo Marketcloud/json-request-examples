@@ -1,0 +1,16 @@
+{
+    "method": "POST",
+    "url": "http://api.marketcloud.it/v0/orders",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "postData" : {
+        "mimeType" : "application/json",
+        "text" : "{\"state\" : \"Processing\",\"total\" : 99.99, \"display_total\" : \"$ 99.99\", \"items_total\" : 89.99, \"dispaly_item_total\" : \"$ 89.99\", \"shipping_address_id\" : 124, \"billing_address_id\" : 123}"
+    },
+    "headersSize" : 150,
+    "bodySize" : 150
+}
