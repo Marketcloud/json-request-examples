@@ -1,0 +1,16 @@
+{
+    "method": "PATCH",
+    "url": "http://api.marketcloud.it/v0/carts/9",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "postData" : {
+        "mimeType" : "application/json",
+        "text" : "{\"op\" : \"update\",\"items\" : [{\"product_id\":13,\"quantity\":20},{\"product_id\":15,\"quantity\":18}]}"
+    },
+    "headersSize" : 150,
+    "bodySize" : 150
+}
