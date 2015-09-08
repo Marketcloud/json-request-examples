@@ -3,12 +3,11 @@
     "url": "http://api.marketcloud.it/v0/stores",
     "httpVersion": "HTTP/1.1",
     "headers": [
-        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
         { "name": "Accept", "value": "application/json" },
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "mimeType" : "application/json",
         "text" : "{\"name\" : \"The Beer Shop\",\"owner_email\" : \"thebeer@shop.com\",\"description\" : \"The Beer Shop is the coolest shop ever. Come every week to taste our always new beer!\"}"
     },
     "headersSize" : 150,

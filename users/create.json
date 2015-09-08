@@ -3,12 +3,11 @@
     "url": "http://api.marketcloud.it/v0/users",
     "httpVersion": "HTTP/1.1",
     "headers": [
-        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
         { "name": "Accept", "value": "application/json" },
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "mimeType" : "application/json",
         "text" : "{\"email\" : \"jon@snow.wf\",\"name\" : \"Jon Snow\",\"password\" : \"winteriscoming\",\"image_url\" : \"http://media.marketcloud.it/v0/\"}"
     },
     "headersSize" : 150,

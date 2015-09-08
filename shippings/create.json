@@ -3,12 +3,11 @@
     "url": "http://api.marketcloud.it/v0/shippings",
     "httpVersion": "HTTP/1.1",
     "headers": [
-        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
         { "name": "Accept", "value": "application/json" },
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "mimeType" : "application/json",
         "text" : "{\"name\" : \"ExpressCouriers Inc\",\"price\" : \"€ 5.00\",\"min_price\" : 10.00, \"max_weight\" : 30.00 }"
     },
     "headersSize" : 150,

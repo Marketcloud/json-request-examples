@@ -3,12 +3,11 @@
     "url": "http://api.marketcloud.it/v0/brands",
     "httpVersion": "HTTP/1.1",
     "headers": [
-        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" },
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
         { "name": "Accept", "value": "application/json" },
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "mimeType" : "application/json",
         "text" : "{\"name\" : \"Paulaner\",\"description\" : \"Paulaner is a German brewery, established in 1634 in Munich by the Minim friars of the Neudeck ob der Au cloister. The mendicant order and the brewery are named after Francis of Paola, the founder of the order. Paulaner is one of the six breweries who provide beer for Oktoberfest, the German beer festival dating from 1810.\",\"image_url\" : \"http://media.marketcloud.it/v0/\",\"url\" : \"Paulaner-Beer\"}"
     },
     "headersSize" : 150,

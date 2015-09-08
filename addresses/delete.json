@@ -5,6 +5,6 @@
     "headers": [
     	{ "name": "Accept", "value": "application/json" },
     	{ "name": "Content-Type", "value": "application/json" },
-        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" }
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
     ]
 }

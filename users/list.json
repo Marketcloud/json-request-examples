@@ -4,7 +4,9 @@
     "httpVersion": "HTTP/1.1",
     "cookies": [],
     "headers": [
-        { "name": "X-Auth-Token", "value": "YOUR_TOKEN_HERE" }
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
+        { "name": "Accept", "value": "application/json" },
+    	{ "name": "Content-Type", "value": "application/json" }
     ],
     "queryString" : []
 }
