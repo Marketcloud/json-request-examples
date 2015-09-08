@@ -7,9 +7,7 @@
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "publicKey" : "yourPublicKey",
-        "secretKey" : "yourHashedSecretKey",
-        "timestamp" : 1441724677832
+	"text": "{\"publicKey\" : \"yourPublicKey\",\"secretKey\" : \"yourHashedSecretKey\",\"timestamp\" : 1441724677832}"
     },
     "headersSize" : 150,
     "bodySize" : 150
