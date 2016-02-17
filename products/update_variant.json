@@ -1,0 +1,15 @@
+{
+    "method": "PUT",
+    "url": "http://api.marketcloud.it/v0/products/:id/variants/:variant_id",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "postData" : {
+        "text" : "{\"price\" : 20}"
+    },
+    "headersSize" : 150,
+    "bodySize" : 150
+}
