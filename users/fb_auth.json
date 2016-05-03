@@ -1,0 +1,15 @@
+{
+    "method": "POST",
+    "url": "http://api.marketcloud.it/v0/users/authenticate/facebook",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "postData" : {
+        "text" : "{\"access_token\" : \"user-access-token\" ,\"user_id\" : \"the-user-id\"}"
+    },
+    "headersSize" : 150,
+    "bodySize" : 150
+}
