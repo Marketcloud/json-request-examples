@@ -1,0 +1,12 @@
+{
+    "method": "GET",
+    "url": "http://api.marketcloud.it/v0/files",
+    "httpVersion": "HTTP/1.1",
+    "cookies": [],
+    "headers": [
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "queryString" : []
+}
