@@ -1,0 +1,24 @@
+{
+    "method": "POST",
+    "url": "http://api.marketcloud.it/v0/promotions",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "postData" : {
+        "text" : "{\
+  \"name\" : \"Green Friday\",\
+  \"conditions\" : [],\
+  \"effects\" : [\
+        {\
+            \"type\" : \"CART_VALUE_PERCENTAGE_REDUCTION\",\
+            \"value\" : 2\
+        }\
+    ]\
+  }"
+    },
+    "headersSize" : 150,
+    "bodySize" : 150
+}
