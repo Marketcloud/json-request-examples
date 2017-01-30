@@ -1,0 +1,10 @@
+{
+    "method": "GET",
+    "url": "http://api.marketcloud.it/v0/coupons",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "method": "DELETE",
+    "url": "http://api.marketcloud.it/v0/coupons/3",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+    	{ "name": "Accept", "value": "application/json" },
+    	{ "name": "Content-Type", "value": "application/json" },
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "method": "POST",
+    "url": "http://api.marketcloud.it/v0/coupons",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "postData" : {
+        "text" : "{    \"code\" : \"WELCOME2017\",    \"name\" : \"welcome_2017\",    \"type\" : \"total\",    \"target_type\" : \"CART_COUPON\",    \"discount_type\" : \"NET_REDUCTION\",    \"discount_value\" : 10,    \"active\" : true}"
+    }
+}
