@@ -8,6 +8,6 @@
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "text" : "{\"cost_type\" : \"fixed_fee\", \"fixed_fee\" : 5.00}"
-    },
+        "text" : "{\"cost_type\" : \"fixed_fee\", \"fixed_fee\" : 5}"
+    }
 }
