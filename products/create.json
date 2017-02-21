@@ -8,7 +8,7 @@
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "text" : "{\"name\" : \"Hefe-Weissbier\",\"sku\":\"F310R90G8BCPJ1AT\",\"category_id\":\"12\",\"brand_id\":\"19\",\"tax_id\":\"23\",\"store_id\":\"25\",\"description\" : \"The no. 1 Hefe-Weißbier in Germany and one of the world’s favourites. Naturally cloudy and shining silky gold in the glass under a really strong head of foam. At the first mouthful this Weißbier classic has a mild aroma of banana. Finer palates detect a trace of mango and pineapple and the balance between sweet and bitter. Beer connoisseurs appreciate the fine note of yeast and the mild but sparkling mix of aromas. It is a typical beergarden beer, which brings people together all over the world.\",\"price\" : \"1.50\",\"stock_level\" : \"1256\",\"published\":\"true\"}"
+        "text" : "{\"name\" : \"Hefe-Weissbier\",\"sku\":\"F310R90G8BCPJ1AT\",\"category_id\":\"12\",\"brand_id\":\"19\",\"tax_id\":\"23\",\"store_id\":\"25\",\"description\" : \"The no. 1 Hefe-Weißbier in Germany and one of the world’s favourites.\",\"price\" : \"1.50\",\"stock_level\" : \"1256\",\"published\":\"true\"}"
     },
     "headersSize" : 150,
     "bodySize" : 150
