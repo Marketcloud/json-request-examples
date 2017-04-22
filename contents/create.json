@@ -1,0 +1,15 @@
+{
+    "method": "POST",
+    "url": "http://api.marketcloud.it/v0/contents",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+        { "name": "Authorization", "value": "YourPublicKey:YourToken" },
+        { "name": "Accept", "value": "application/json" },
+        { "name": "Content-Type", "value": "application/json" }
+    ],
+    "postData" : {
+        "text" : "{\"title\" : \"My new blogpost\", \"text\" : \"This is the content of my new blogpost\"}"
+    },
+    "headersSize" : 150,
+    "bodySize" : 150
+}
