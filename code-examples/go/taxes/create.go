@@ -11,7 +11,7 @@ func main() {
 
 	url := "http://api.marketcloud.it/v0/taxes"
 
-	payload := strings.NewReader("{\"name\" : \"Minimum VAT\",\"rate\" : \"4.00\",\"description\" : \"To be applied for first use goods (food, press...)\" }")
+	payload := strings.NewReader("{ \"rates\" : [  { \"state\" : \"*\", \"postcode\" : \"*\", \"city\" : \"*\", \"priority\" : 0, \"country\" : \"Italy\", \"rate\" : 22, \"name\" : \"IVA\", \"shipping\" : true, \"country_code\" : \"IT\" } ], \"name\" : \"Standard VAT\", \"application_id\" : 4323, \"id\" : 169405 }")
 
 	req, _ := http.NewRequest("POST", url, payload)
 

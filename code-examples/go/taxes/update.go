@@ -11,7 +11,7 @@ func main() {
 
 	url := "http://api.marketcloud.it/v0/taxes/9"
 
-	payload := strings.NewReader("{\"name\": \"Ordinary VAT\",\"rate\" : \"20.00\", \"description\" : \"To be applied when other VAT does not apply\" }")
+	payload := strings.NewReader("{\"name\": \"Ordinary VAT\"}")
 
 	req, _ := http.NewRequest("PUT", url, payload)
 
