@@ -1,0 +1,23 @@
+{
+  "name": "marketcloud-request-snippets",
+  "version": "1.0.0",
+  "description": "Collection of Marketcloud request examples",
+  "main": "generate_snippets.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marketcloud/json-request-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marketcloud/json-request-examples/issues"
+  },
+  "homepage": "https://github.com/Marketcloud/json-request-examples#readme",
+  "dependencies": {
+    "httpsnippet": "^1.16.5",
+    "mkdirp": "^0.5.1"
+  }
+}

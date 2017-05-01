@@ -8,7 +8,7 @@
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "text" : "{\"name\": \"Ordinary VAT\",\"rate\" : \"20.00\", \"description\" : \"To be applied when other VAT does not apply\" }"
+        "text" : "{\"name\": \"Ordinary VAT\"}"
     },
     "headersSize" : 150,
     "bodySize" : 150
