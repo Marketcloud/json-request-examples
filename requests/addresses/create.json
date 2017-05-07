@@ -8,7 +8,7 @@
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "text" : "{\"full_name\": \"Jon Snow\",\"country\" : \"Westeros\", \"state\": \"The North\", \"city\": \"Winterfell\", \"address1\": \"Winterfell Castle, 1\", \"postal_code\": \"12345\"}"
+        "text" : "{\"email\": \"john@thewall.io\",\"full_name\": \"Jon Snow\",\"country\" : \"Westeros\", \"state\": \"The North\", \"city\": \"Winterfell\", \"address1\": \"Winterfell Castle, 1\", \"postal_code\": \"12345\"}"
     },
     "headersSize" : 150,
     "bodySize" : 150
