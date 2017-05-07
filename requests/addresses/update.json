@@ -1,6 +1,6 @@
 {
     "method": "PUT",
-    "url": "http://api.marketcloud.it/v0/brands/3",
+    "url": "http://api.marketcloud.it/v0/addresses/{id}",
     "httpVersion": "HTTP/1.1",
     "headers": [
         { "name": "Authorization", "value": "YourPublicKey:YourToken" },
@@ -8,7 +8,7 @@
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "text" : "{\"name\" : \"Paulaner Brauerei\"}"
+        "text" : "{\"full_name\": \"Jon Snow\",\"country\" : \"Westeros\", \"state\": \"The North\", \"city\": \"the Wall\", \"address1\": \"the Wall, 1\", \"postal_code\": \"54321\"}"
     },
     "headersSize" : 150,
     "bodySize" : 150

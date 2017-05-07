@@ -1,6 +1,6 @@
 {
-    "method": "PATCH",
-    "url": "http://api.marketcloud.it/v0/carts/9",
+    "method": "POST",
+    "url": "http://api.marketcloud.it/v0/carts",
     "httpVersion": "HTTP/1.1",
     "headers": [
         { "name": "Authorization", "value": "YourPublicKey:YourToken" },
@@ -8,7 +8,7 @@
         { "name": "Content-Type", "value": "application/json" }
     ],
     "postData" : {
-        "text" : "{\"op\" : \"update\",\"items\" : [{\"product_id\":13,\"quantity\":20},{\"product_id\":15,\"quantity\":18}]}"
+        "text" : "{}"
     },
     "headersSize" : 150,
     "bodySize" : 150
