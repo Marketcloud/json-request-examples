@@ -1,6 +1,6 @@
 curl --request PATCH \
-  --url http://api.marketcloud.it/v0/carts/9 \
+  --url http://api.marketcloud.it/v0/carts/:id \
   --header 'accept: application/json' \
   --header 'authorization: YourPublicKey:YourToken' \
   --header 'content-type: application/json' \
-  --data '{"op" : "update","items" : [{"product_id":13,"quantity":20},{"product_id":15,"quantity":18}]}'
+  --data '{"op" : "update","items" : [{"product_id":1,"quantity":1}]}'

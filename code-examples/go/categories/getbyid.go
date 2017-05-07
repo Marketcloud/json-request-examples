@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	url := "http://api.marketcloud.it/v0/categories/9"
+	url := "http://api.marketcloud.it/v0/categories/:id"
 
 	req, _ := http.NewRequest("GET", url, nil)
 

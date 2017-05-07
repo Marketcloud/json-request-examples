@@ -10,7 +10,7 @@ headers = {
     'content-type': "application/json"
     }
 
-conn.request("PUT", "/v0/promotions/1", payload, headers)
+conn.request("PUT", "/v0/promotions/:id", payload, headers)
 
 res = conn.getresponse()
 data = res.read()

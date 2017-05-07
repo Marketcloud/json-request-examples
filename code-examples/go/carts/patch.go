@@ -9,9 +9,9 @@ import (
 
 func main() {
 
-	url := "http://api.marketcloud.it/v0/carts/9"
+	url := "http://api.marketcloud.it/v0/carts/:id"
 
-	payload := strings.NewReader("{\"op\" : \"update\",\"items\" : [{\"product_id\":13,\"quantity\":20},{\"product_id\":15,\"quantity\":18}]}")
+	payload := strings.NewReader("{\"op\" : \"update\",\"items\" : [{\"product_id\":1,\"quantity\":1}]}")
 
 	req, _ := http.NewRequest("PATCH", url, payload)
 

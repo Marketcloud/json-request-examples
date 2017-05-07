@@ -6,7 +6,7 @@ let headers = [
   "content-type": "application/json"
 ]
 
-var request = NSMutableURLRequest(URL: NSURL(string: "http://api.marketcloud.it/v0/carts/9")!,
+var request = NSMutableURLRequest(URL: NSURL(string: "http://api.marketcloud.it/v0/carts/:id")!,
                                         cachePolicy: .UseProtocolCachePolicy,
                                     timeoutInterval: 10.0)
 request.HTTPMethod = "GET"

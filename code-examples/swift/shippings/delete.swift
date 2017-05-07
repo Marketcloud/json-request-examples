@@ -6,7 +6,7 @@ let headers = [
   "authorization": "YourPublicKey:YourToken"
 ]
 
-var request = NSMutableURLRequest(URL: NSURL(string: "http://api.marketcloud.it/v0/shippings/2")!,
+var request = NSMutableURLRequest(URL: NSURL(string: "http://api.marketcloud.it/v0/shippings/:id")!,
                                         cachePolicy: .UseProtocolCachePolicy,
                                     timeoutInterval: 10.0)
 request.HTTPMethod = "DELETE"

@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	url := "http://api.marketcloud.it/v0/addresses/9"
+	url := "http://api.marketcloud.it/v0/addresses/:id"
 
 	payload := strings.NewReader("{\"full_name\": \"Jon Snow\",\"country\" : \"Westeros\", \"state\": \"The North\", \"city\": \"the Wall\", \"address1\": \"the Wall, 1\", \"postal_code\": \"54321\"}")
 

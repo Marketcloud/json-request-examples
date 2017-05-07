@@ -8,7 +8,7 @@ let headers = [
 
 let postData = NSData(data: "{"full_name": "Jon Snow","country" : "Westeros", "state": "The North", "city": "the Wall", "address1": "the Wall, 1", "postal_code": "54321"}".dataUsingEncoding(NSUTF8StringEncoding)!)
 
-var request = NSMutableURLRequest(URL: NSURL(string: "http://api.marketcloud.it/v0/addresses/9")!,
+var request = NSMutableURLRequest(URL: NSURL(string: "http://api.marketcloud.it/v0/addresses/:id")!,
                                         cachePolicy: .UseProtocolCachePolicy,
                                     timeoutInterval: 10.0)
 request.HTTPMethod = "PUT"

@@ -11,7 +11,7 @@ func main() {
 
 	url := "http://api.marketcloud.it/v0/carts"
 
-	payload := strings.NewReader("{\"user_id\" : 1,\"items\" : [{\"product_id\":13,\"quantity\":2},{\"product_id\":15,\"quantity\":3}]}")
+	payload := strings.NewReader("{}")
 
 	req, _ := http.NewRequest("POST", url, payload)
 

@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	url := "http://api.marketcloud.it/v0/shippings/3"
+	url := "http://api.marketcloud.it/v0/shippings/:id"
 
 	payload := strings.NewReader("{\"price\" : \"€ 6.00\", \"max_weight\" : 40.00 }")
 

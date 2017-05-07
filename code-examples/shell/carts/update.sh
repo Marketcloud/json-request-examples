@@ -1,5 +1,5 @@
 curl --request PUT \
-  --url http://api.marketcloud.it/v0/carts/9 \
+  --url http://api.marketcloud.it/v0/carts/:id \
   --header 'accept: application/json' \
   --header 'authorization: YourPublicKey:YourToken' \
   --header 'content-type: application/json' \

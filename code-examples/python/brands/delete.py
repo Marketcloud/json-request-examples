@@ -8,7 +8,7 @@ headers = {
     'authorization': "YourPublicKey:YourToken"
     }
 
-conn.request("DELETE", "/v0/brands/2", headers=headers)
+conn.request("DELETE", "/v0/brands/:id", headers=headers)
 
 res = conn.getresponse()
 data = res.read()

@@ -11,7 +11,7 @@ func main() {
 
 	url := "http://api.marketcloud.it/v0/addresses"
 
-	payload := strings.NewReader("{\"full_name\": \"Jon Snow\",\"country\" : \"Westeros\", \"state\": \"The North\", \"city\": \"Winterfell\", \"address1\": \"Winterfell Castle, 1\", \"postal_code\": \"12345\"}")
+	payload := strings.NewReader("{\"email\": \"john@thewall.io\",\"full_name\": \"Jon Snow\",\"country\" : \"Westeros\", \"state\": \"The North\", \"city\": \"Winterfell\", \"address1\": \"Winterfell Castle, 1\", \"postal_code\": \"12345\"}")
 
 	req, _ := http.NewRequest("POST", url, payload)
 

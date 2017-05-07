@@ -2,7 +2,7 @@ import http.client
 
 conn = http.client.HTTPConnection("api.marketcloud.it")
 
-payload = "{\"op\" : \"update\",\"items\" : [{\"product_id\":13,\"quantity\":20},{\"product_id\":15,\"quantity\":18}]}"
+payload = "{\"op\" : \"update\",\"items\" : [{\"product_id\":1,\"quantity\":1}]}"
 
 headers = {
     'authorization': "YourPublicKey:YourToken",
@@ -10,7 +10,7 @@ headers = {
     'content-type': "application/json"
     }
 
-conn.request("PATCH", "/v0/carts/9", payload, headers)
+conn.request("PATCH", "/v0/carts/:id", payload, headers)
 
 res = conn.getresponse()
 data = res.read()

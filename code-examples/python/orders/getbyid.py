@@ -8,7 +8,7 @@ headers = {
     'content-type': "application/json"
     }
 
-conn.request("GET", "/v0/orders/9", headers=headers)
+conn.request("GET", "/v0/orders/:id", headers=headers)
 
 res = conn.getresponse()
 data = res.read()

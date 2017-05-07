@@ -6,7 +6,7 @@ let headers = [
   "content-type": "application/json"
 ]
 
-let postData = NSData(data: "{"full_name": "Jon Snow","country" : "Westeros", "state": "The North", "city": "Winterfell", "address1": "Winterfell Castle, 1", "postal_code": "12345"}".dataUsingEncoding(NSUTF8StringEncoding)!)
+let postData = NSData(data: "{"email": "john@thewall.io","full_name": "Jon Snow","country" : "Westeros", "state": "The North", "city": "Winterfell", "address1": "Winterfell Castle, 1", "postal_code": "12345"}".dataUsingEncoding(NSUTF8StringEncoding)!)
 
 var request = NSMutableURLRequest(URL: NSURL(string: "http://api.marketcloud.it/v0/addresses")!,
                                         cachePolicy: .UseProtocolCachePolicy,

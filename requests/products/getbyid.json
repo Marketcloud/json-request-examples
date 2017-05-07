@@ -1,6 +1,6 @@
 {
     "method": "GET",
-    "url": "http://api.marketcloud.it/v0/products/1",
+    "url": "http://api.marketcloud.it/v0/products/:id",
     "httpVersion": "HTTP/1.1",
     "cookies": [],
     "headers": [

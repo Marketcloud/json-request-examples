@@ -1,6 +1,6 @@
 {
     "method": "GET",
-    "url": "http://api.marketcloud.it/v0/taxes/9",
+    "url": "http://api.marketcloud.it/v0/taxes/:id",
     "httpVersion": "HTTP/1.1",
     "cookies": [],
     "headers": [

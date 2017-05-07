@@ -3,7 +3,8 @@ const fs = require('fs')
 const path = require('path')
 const mkdirp = require('mkdirp')
 
-var baseOutputDirectory = path.join(__dirname, 'code-examples')
+var baseOutputDirectory = path.join(__dirname, 'code-examples');
+var baseInputDirectory = path.join(__dirname, 'requests');
 
 function getDirectories (srcpath) {
   return fs.readdirSync(srcpath)
@@ -18,28 +19,28 @@ var languages = [
   'shell',
   'go',
   'java',
-  'objective-c',
+  'objc',
   'swift',
   'python',
-  'c#'
+  'csharp'
 ]
 
 var extensions = {
   'shell': '.sh',
   'go': '.go',
   'java': '.java',
-  'objective-c': '.m',
+  'objc': '.m',
   'swift': '.swift',
   'python': '.py',
-  'c#': '.cs'
+  'csharp': '.cs'
 
 }
 
-var directoriesToIgnore = ['.git', 'node_modules', 'code-examples']
+var directoriesToIgnore = ['.git', 'node_modules', 'code-examples','requests']
 
 var files = {}
 
-getDirectories(__dirname)
+getDirectories(baseInputDirectory)
   .forEach((dir) => {
     if (directoriesToIgnore
       .indexOf(dir) > -1) {
@@ -49,7 +50,7 @@ getDirectories(__dirname)
 
     files[dir] = {}
 
-    var resourcePath = path.join(__dirname, dir)
+    var resourcePath = path.join(baseInputDirectory, dir)
 
     var filesInDirectory = getFiles(resourcePath)
 

@@ -1,6 +1,6 @@
 {
     "method": "DELETE",
-    "url": "http://api.marketcloud.it/v0/paymentMethods/2",
+    "url": "http://api.marketcloud.it/v0/paymentMethods/:id",
     "httpVersion": "HTTP/1.1",
     "headers": [
     	{ "name": "Accept", "value": "application/json" },

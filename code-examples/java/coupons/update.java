@@ -1,4 +1,4 @@
-HttpResponse<String> response = Unirest.put("http://api.marketcloud.it/v0/coupons/1")
+HttpResponse<String> response = Unirest.put("http://api.marketcloud.it/v0/coupons/:id")
   .header("authorization", "YourPublicKey:YourToken")
   .header("accept", "application/json")
   .header("content-type", "application/json")

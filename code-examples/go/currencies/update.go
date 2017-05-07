@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	url := "http://api.marketcloud.it/v0/currencies/9"
+	url := "http://api.marketcloud.it/v0/currencies/:id"
 
 	payload := strings.NewReader("{\"name\" : \"American Dollar\",\"formatting\" : \"$\" }")
 

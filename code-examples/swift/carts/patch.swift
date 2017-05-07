@@ -6,9 +6,9 @@ let headers = [
   "content-type": "application/json"
 ]
 
-let postData = NSData(data: "{"op" : "update","items" : [{"product_id":13,"quantity":20},{"product_id":15,"quantity":18}]}".dataUsingEncoding(NSUTF8StringEncoding)!)
+let postData = NSData(data: "{"op" : "update","items" : [{"product_id":1,"quantity":1}]}".dataUsingEncoding(NSUTF8StringEncoding)!)
 
-var request = NSMutableURLRequest(URL: NSURL(string: "http://api.marketcloud.it/v0/carts/9")!,
+var request = NSMutableURLRequest(URL: NSURL(string: "http://api.marketcloud.it/v0/carts/:id")!,
                                         cachePolicy: .UseProtocolCachePolicy,
                                     timeoutInterval: 10.0)
 request.HTTPMethod = "PATCH"
